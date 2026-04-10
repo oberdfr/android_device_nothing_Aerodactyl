@@ -108,6 +108,9 @@ PRODUCT_COPY_FILES += \
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# HWUI
+TARGET_USES_VULKAN := true
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek
